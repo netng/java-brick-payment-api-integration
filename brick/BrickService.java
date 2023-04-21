@@ -36,7 +36,7 @@ public class BrickService extends BaseService {
 
     private final Logger logger = LoggerFactory.getLogger(this.getClass());
 
-    @Value("${sofcograha.brick.base.url}")
+    @Value("${netng.brick.base.url}")
     private String BASE_URL;
 
     private static final String BASE_URI = "/v2/payments/";
